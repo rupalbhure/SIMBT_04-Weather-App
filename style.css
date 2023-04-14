@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+   background: url('/assests/web.jpg');
+    background-size: 100% 100%;
+}
+
+.head {
+    background-image: url('/assests/weather.webp');
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding: 8%;
+    justify-content: center;
+    
+    color: #002244;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.head h1{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#1b1919, #f91717);
+    background-clip:border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main {
+    background-color:transparent;
+}
+.container-fluid
+{
+    width: 400px;
+    margin: 60px auto;
+    padding: 10px;
+    background-color: transparent;
+}
+.inputs 
+{
+    padding: 0.25rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+
+    
+    
+}
+.inputs input[type="text"] 
+{
+    height: 3rem;
+    width: 400px;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 30px;
+    border: none;
+    background-color: white;
+    border: 2px solid #0a0a0a;
+    border-radius: 30px;
+    margin-right:4px ;
+}
+.inputs input[type="submit"] 
+{
+    height: 3rem;
+    width: 6rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inputs input[type="submit"] :hover{
+    background-color: rgb(17, 18, 18);
+}
+.display 
+{
+    text-align: center;
+    width:100%;
+    color: #0f1010;
+    font-size: 50px;
+    /* background-color: #9cd2f3; */
+    
+}
+.wrapper 
+{
+    margin: 0 9rem;
+    background-color:transparent;
+    background-position: 100%;
+    height: 60vh;
+    margin: auto auto;
+    width: 550px;
+    border-radius: 2px;
+}
+
+.wrapper h2
+{
+    padding: 5px 0;
+    text-align: center;
+    background: transparent;
+    color: rgb(27, 28, 27);
+    font-family: sans-serif;
+    border-radius: none;
+    width:auto;
+    font-size: 45px;
+
+}
+.wrapper p
+{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #FF033E;
+    font-size:29px;
+    font-weight: 100;
+    width: 100%;
+}
+.wrapper h2 span
+{
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(245, 235, 248);
+    
+}
+.wrapper p span
+{
+    color: #0f0f0e;
+    font-size: 25px;
+    width: 100%;
+}
